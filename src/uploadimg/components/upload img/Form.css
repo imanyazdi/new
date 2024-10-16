@@ -1,0 +1,17 @@
+
+.label input{
+    display: none;
+}
+.plusss{
+    padding:0 3px;
+    border-radius: 50%;
+    border: solid red 1px;
+    color: red;    
+    margin-right: 5px;
+}
+.err{
+    color: red;
+}
+.file{
+    color: red;
+}

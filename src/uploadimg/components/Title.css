@@ -1,0 +1,11 @@
+.title{
+    max-width: 960px;
+    justify-content: space-between;
+    margin: auto;
+    font-size: larger;
+    background-color: white;
+}
+.title h1{
+    text-align: start;
+    color: brown;
+}

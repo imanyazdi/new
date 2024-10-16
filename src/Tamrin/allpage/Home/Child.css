@@ -1,0 +1,38 @@
+.child {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.child h1 {
+    font-weight: bold;
+}
+
+.cart {
+    position: relative;
+    box-shadow: 2px 2px 7px rgb(1, 5, 53);
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px !important;
+    border: 1px rgb(28, 28, 54) solid;
+    max-width: 300px;
+    max-height: 260px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cart a {
+    text-align: center;
+    margin: 0;
+}
+
+.deletef {
+    position: absolute;
+    height: 40px;
+    top: 0 !important;
+    left: 10px !important;
+    filter: invert(100%);
+    width: 23px;
+    align-items: start !important;
+}

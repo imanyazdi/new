@@ -1,0 +1,54 @@
+.trip-title{
+    text-align: center;
+}
+.tripboxs{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.left{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trip-child{
+    font-size: 90%;  
+    margin: auto;
+    width: 30%;
+    background-color: rgb(188, 220, 248);
+    box-shadow: 0px 1px 10px rgb(0, 0, 39);
+    margin-right: 10px;
+    margin-top: 17%;
+}
+.trip-btns{
+    margin-top: 30vh;
+    width: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.trip-btn{
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+
+.point{
+text-align: center;
+margin: auto;
+width: 50%;
+height: 150px;
+border: 1px solid black;
+box-shadow: 1px 1px 6px black;
+}

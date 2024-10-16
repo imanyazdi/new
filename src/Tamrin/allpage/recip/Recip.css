@@ -1,0 +1,18 @@
+.recipid{
+    text-align: center ;
+    margin: auto;
+    width: 50%;
+    background-color: rgb(189, 189, 189);
+    font-size: 120%;
+}
+.recepise{
+    text-align: start;
+ margin: auto;
+}
+.title{
+    text-align: center;
+    font-weight: bolder;
+} 
+.changertitle{
+    text-align: center ;
+}

@@ -1,0 +1,68 @@
+.box {
+
+    text-align: center;
+    background-color: rgb(29, 16, 41);
+    color: rgb(255, 255, 255);
+
+}
+
+.btn {
+    border-radius: 5px;
+    border: solid white 1px;
+    background-color: rgb(29, 16, 41);
+    color: white;
+    width: 15%;
+    font-size: 160%;
+    margin-bottom: 1px;
+    margin: 30px !important;
+}
+
+.btn:hover {
+    background-color: rgb(226, 43, 211);
+}
+
+.boximgs {
+    width: 82%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 6px;
+    grid-row-gap: 14px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.boximg {
+    margin: auto;
+    width: 94%;
+    border: solid 1px rgb(136, 105, 125);
+    border-radius: 8px;
+}
+.boximg :hover{
+    box-shadow: 0 0 4px rgb(245, 0, 204);
+    border-radius: 6.8px;
+}
+
+
+.numbers {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 140%;
+    margin-bottom: 10px;
+}
+
+.number1 {
+    margin: auto;
+}
+
+.number2 {
+    margin: auto;
+}
+
+.number3 {
+    margin: auto;
+}

@@ -1,0 +1,75 @@
+.create{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(224, 223, 226);
+    margin-top: 50px;
+    font-size: 130%;
+}
+.create label{
+    display:flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 100%;
+    background-color: rgb(209, 208, 209);
+    margin: 7px 3px;
+}
+.create span{
+    margin: 10px;
+    text-align: start;
+    padding-left: 10px;
+}
+.create input{
+    margin-top: 10px !important;
+    border: none;
+    width: 70%;
+    height: 20px;
+    border-radius: 4px;
+    margin:5px auto;
+    
+}
+.btnn{
+    background-color: rgb(131, 8, 131);
+    color: white;
+    border-radius: 10px;
+    height: 40px !important;
+    width: 60%;
+    max-width: 80px;
+    border: none;
+    font-size: 100%;
+    text-align: center;
+    margin: auto !important;
+}
+.btnnn{
+    background-color: rgb(177, 15, 136);
+    color: white;
+    border-radius: 10px;
+    height: 30px !important;
+    width: 50%;
+    max-width: 60px;
+    border: none;
+    text-align: center;
+    margin: auto !important;
+}
+.ingridient{
+    display: flex;
+    align-items: center;
+}
+
+.ingridient input{
+    width: 60%;
+    margin-left: 80px;
+}
+
+.em{
+    text-align: start !important;
+    margin-left: 30px;
+    font-size:smaller;
+}
+form {
+    margin: 10px 3px;
+}

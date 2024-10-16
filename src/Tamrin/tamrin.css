@@ -1,0 +1,15 @@
+*{
+    font-family:  sans-serif;
+    font-weight:normal;
+}
+
+.zpp.light{
+    background-color: rgb(85, 83, 83);
+   
+}
+.zpp.dark{
+    background-color: rgb(158, 155, 155);
+}
+.zpp{
+padding-bottom: 80px;
+}

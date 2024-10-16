@@ -1,0 +1,22 @@
+{
+    "trips":[
+        {
+            "title":"tehran",
+            "price":"11000",
+            "id":"1",
+            "loc":"iran"
+        },
+        {
+            "title":"mashhad",
+            "price":"9000",
+            "id":"2",
+            "loc":"iran"
+        },
+        {
+            "title":"ankara",
+            "price":"8000",
+            "id":"3",
+            "loc":"turky"
+        }
+    ]
+}
