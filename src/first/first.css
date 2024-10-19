@@ -11,33 +11,38 @@
     height: 100%;
     width: 100%;
     filter: blur(1.9px);
+    opacity: 2;
    
 }
 
 .text  {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width:73% ;
     font-size: 345%;
     box-shadow: -3px -2px  10px  rgb(1, 38, 46) ,1px 0px  2px  rgb(211, 211, 214)   ;
     text-shadow:  0px 1px 2px rgb(212, 212, 212),1px 2px 5px rgb(177, 178, 179);
-    padding: 30px 50px;
+    padding: 33px 50px;
     filter: blur(.6px);
     font-weight: bolder;
     position: absolute;
-    color: rgb(1, 72, 88);
+    color: rgb(0, 61, 117);
     top: 22%;
     left: 110px;
     z-index: 1;
-    filter: blur(-3px);
-    opacity: 2 !important;
 }
+.text h1{
+    font-size: 90%;
+    font-weight: 550;
+}
+
 .exprient{
+    padding: 3px;
     font-size: 70%;
-    text-shadow: 2px 1px 1px rgb(92, 47, 2);
-    color: rgb(214, 137, 43) ;
+    text-shadow: 2px 1px 1px rgb(61, 31, 1);
+    color: rgb(189, 128, 53) ;
 }
 .exprient span{
     color: rgb(207, 156, 89);
-    text-shadow: 2px 1px 1px rgb(80, 45, 12);
-    font-size: 98%;
+    text-shadow: 2px 2px 1px rgb(34, 18, 3);
+    font-size: 96%;
     font-weight: 300;
 }

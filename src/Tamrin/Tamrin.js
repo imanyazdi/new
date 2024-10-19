@@ -4,7 +4,7 @@ import Nav from "./allpage/Nav";
 import "./tamrin.css"
 import Createback from './allpage/Createback';
 import { Usethem } from './hooks/Usethem';
-import { Link, Outlet, Route, Routes } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 
 export default function Tamrin() {

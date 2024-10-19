@@ -31,7 +31,7 @@ export default function Trips() {
       {point &&
         <div className='point'>
           <p>This is a test page created to utilize the "useState" and "useEffect" hooks.<p />
-            <p>please instll json link:</p>
+            <p>please install json link:</p>
             <p>C:\Users\Desktop\fetch\src\components\date\db.json</p>
           </p>
           <button onClick={pointer}>ok</button>
