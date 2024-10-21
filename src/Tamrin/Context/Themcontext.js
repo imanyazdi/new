@@ -5,6 +5,7 @@ const initstate={
     color:"rgb(26, 24, 65)",
     mode:"dark"
 }
+
 const user =(state,option)=>{
     switch (option.type) {
         case "change":
