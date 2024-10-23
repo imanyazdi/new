@@ -45,7 +45,7 @@ export default function Recip() {
                 <li key={param}>{param}</li>
               ))}
             </ul>
-            <h3 className="lorem">{data.methode}</h3>
+            <h3 className="lorem">{data.method}</h3>
             <h2 className="time">{data.cookingTime}</h2>
             <h2 className="changertitle" ><button onClick={() => haldlechange()}>change data</button></h2>
           </>

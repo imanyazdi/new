@@ -1,33 +1,37 @@
 .allapp nav {
-    width: 100%;
-    padding-top: 15px;
+    padding: 1rem 0;
     background-color: rgba(175, 175, 175, 0.247);
     text-align: center;
     text-decoration: none;
-    height: 38px !important;
-    max-height: 100px; 
+    height: auto;
+    max-height: 100px;
 }
-.allapp nav.sss{
+
+.allapp nav.sss {
     filter: blur(1);
     background-color: rgba(240, 248, 255, 0);
-    background-image:linear-gradient(to right,rgba(255, 255, 255, 0)10%, rgba(110, 115, 128, 0.527),rgba(206, 200, 200, 0.116),rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0)10%, rgba(110, 115, 128, 0.527), rgba(206, 200, 200, 0.062), rgba(0, 0, 0, 0));
     position: fixed;
-    top: 18.2%;
+    width: 100%;
+    top: 14.5%;
     z-index: 3;
+    margin-left: 19%;
 }
-.allapp nav.sss a{
+
+.allapp nav.sss a {
     font-family: sans-serif;
-    font-size: 160%;
+    font-size: 130%;
     border-radius: 4px;
     color: rgb(255, 255, 255);
 }
-.allapp nav.sss .active{
+
+.allapp nav.sss .active {
     color: rgb(2, 27, 58);
-    background-color:rgba(29, 27, 25, 0);
-    font-weight: bold;
-    font-size: x-large;
-    text-shadow: 10px 8px 18px rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 160%;
+    background-color: rgba(29, 27, 25, 0);
 }
+
 a {
     padding: 2px 6px;
     text-decoration: none;
@@ -40,4 +44,41 @@ nav .active {
     background-color: rgba(214, 214, 214, 0.801);
     color: rgb(10, 96, 122);
     border-radius: 4px;
+}
+
+.navbar-toggler {
+    width: 10%;
+}
+
+.sss .navbar-toggler {
+    width: 10%;
+}
+
+.navbar-toggler{
+    position: absolute;
+    top: 10px;
+    width: 10%;
+    right: 1px;
+    margin: auto;
+    z-index: 4;
+}
+
+@media(max-width:950px){
+    .navbar-nav{
+       right: 10px;
+        background-color: rgba(0, 0, 0, 0.747);
+        width: 60%;
+    }
+    .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+        background-color: rgba(202, 202, 202, 0.322);
+        border-radius: 4px;
+        padding: 10px;
+        margin: 5px;
+        transition: 0.4s;
+        z-index: 4;
+    }
+    .navbarNav{
+        background-color: aquamarine;
+    }
 }

@@ -19,30 +19,37 @@ export default function Imggrade({ setclickimg }) {
       console.log(err);
     }
   }
-  return (
-    <div className="box-imgs">
-      <motion.div className="imgs">
-        {docs && docs.map((params) => (
-          <div className="img"
-            key={params.id}
-            onClick={() => setclickimg(params.url)}
-            onMouseEnter={()=>setShowdelete(true)}
-            onMouseLeave={()=>setShowdelete(false)}
-            layout
-            >
-            <motion.img 
+  const [showdeleteId, setShowdeleteId] = useState(null);
+
+return (
+  <div className="box-imgs">
+    <motion.div className="imgs">
+      {docs && docs.map((params) => (
+        <div className="img"
+          key={params.id}
+          onClick={() => setclickimg(params.url)}
+          onMouseEnter={() => setShowdeleteId(params.id)}
+          onMouseLeave={() => setShowdeleteId(null)}
+          layout
+        >
+          <motion.img 
             src={params.url}
-             alt="pictures"
-             initial={{opacity:0}}
-             animate={{opacity:1}}
-             transition={{delay:1}}
-              />
-            {showdelete &&( <button className="deletee"
-              onClick={(e) => handelDelete(e,params.id, params.url)}
-            >Delete</button>)}
-          </div>
-        ))}
-      </motion.div>
-    </div>
-  )
+            alt="pictures"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1 }}
+          />
+          {showdeleteId === params.id && ( 
+            <button className="deletee"
+              onClick={(e) => handelDelete(e, params.id, params.url)}
+            >
+              Delete
+            </button>
+          )}
+        </div>
+      ))}
+    </motion.div>
+  </div>
+)
+
 }

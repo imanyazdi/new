@@ -14,7 +14,7 @@ export default function Bar() {
     return (
     <div className="bar">
         <form onSubmit={handelsearch}>
-            <label >search:</label>
+            <label ><h5>search:</h5></label>
             <input 
                 type="text"
                 onChange={(e)=>setTerm(e.target.value)}

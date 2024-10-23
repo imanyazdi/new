@@ -1,5 +1,3 @@
-
-import Home from "./allpage/Home/Home";
 import Nav from "./allpage/Nav";
 import "./tamrin.css"
 import Createback from './allpage/Createback';

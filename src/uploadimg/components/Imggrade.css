@@ -5,14 +5,14 @@
 .imgs{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap:18px;
+    grid-column-gap:25px;
     width: 98%;
     margin: auto;
 }
 .img{
     position: relative;
     width: 96%;
-    margin: auto;
+    margin: 1rem auto;
 }
 img{
     width: 98%;
@@ -21,12 +21,11 @@ img{
 }
 .deletee{
     margin-top: auto;
+    left: 40%;
     bottom: 10px;
-    left: 38%;
     position: absolute;
-    width: 20%;
-    height: 20px;
-    justify-content: space-between;
+    width: 18%;
+    height: 24px;
     cursor: pointer;
     border: 0;
     border-radius: 7px;
