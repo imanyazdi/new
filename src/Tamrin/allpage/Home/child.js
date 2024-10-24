@@ -15,12 +15,12 @@ export default function Child({ props }) {
         }
     }
     return (
-        <div className="child">
+        <div className="row child">
             {props.map((prop) => (
-                <div className="cart" key={prop.id}>
+                <div className="col-8 col-sm-5 col-md-5 p-3 my-5 mx-auto  cart" key={prop.id}>
                     <h2>{prop.title}</h2>
                     <h3>{`${prop.ingredients}`}</h3>
-                    <h4>{prop.method}</h4>
+                    <h5>{prop.method}</h5>
                     <h5>({prop.cookingTime})</h5>
                     <img
                         className="deletef"
