@@ -22,8 +22,8 @@
 
 .cart {
     position: relative;
-    box-shadow: 1px 1px 4px rgb(76, 0, 83);
-    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px rgb(22, 0, 83);
+    background-color: rgb(238, 238, 238);
     margin-top: 60px !important;
     border: 1px rgb(0, 0, 0) solid;
     max-width: 300px;
@@ -49,9 +49,9 @@
     align-items: start !important;
 }
 .child button{
-    background-color: rgba(232, 81, 240, 0.315);
-    color: rgb(0, 6, 29);
-    border: 0;
+    background-color: rgba(174, 156, 255, 0.315);
+    color: rgb(4, 16, 122);
+    border: 0px;
     border-radius: 5px;
 }
 @media(max-width:930px){
